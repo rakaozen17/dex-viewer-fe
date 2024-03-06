@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to bottom, #FF0000, #000000);
+  }
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+    height:450px;
+  }
+  
+  .login-image {
+    flex:2;
+    height: 100%;
+    /* Insert Login Image Styles Here */
+  }
+  
+  .login-form {
+    flex:1.5;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"], input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: #FF0000;
+  }
+  

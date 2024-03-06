@@ -1,0 +1,38 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    color:crimson;
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .go-back-btn {
+    padding: 10px 20px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    /* transition: background-color 0.3s ease-in-out; */
+    border: 1px solid white;
+    margin-top: 2rem;
+  }
+  
+  .go-back-btn:hover {
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+    cursor: pointer;
+  }
+  
